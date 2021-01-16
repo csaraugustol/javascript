@@ -1,0 +1,45 @@
+*{
+    margin: 0 auto;
+    font-family: 'Segoe Script';
+}
+header{
+    text-align: center;
+
+}
+#logo{
+width: 20%;
+
+}
+#sectionContainer, #sesaoResultado {
+    border: solid black;
+    border-radius: 10px;
+    width: 23%;
+    height: 5vh;
+    padding: 2%;
+    text-align: center;
+}
+#sesaoResultado {
+    background-color: red;
+    margin-top: 1%;
+}
+#botaoCalcular, #telaDados{
+    border-radius: 15   px;
+    height: 5vh;
+}
+#telaDados{
+    border: solid red;
+    
+}
+#botaoCalcular{
+    background-color: #00D6FF;
+    color: white;
+    border: solid #00D6FF;
+    width: 70px;
+    text-align: center;
+    margin-left: 10%;
+}
+p{
+    color: white;
+    font-size: 1.5em;
+    padding: 1%;
+}
