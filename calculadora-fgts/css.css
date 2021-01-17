@@ -1,0 +1,126 @@
+#body2{
+    background-image: url(img/fundo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 5000px;
+}
+body#body2 img#imgFechar{
+    margin-left: 97%;
+}
+*{
+    font-family: 'Open Sans','Ubuntu','sans-serif';
+}
+#cabInputSaldo{
+    text-align: center;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin-top: 30vh;
+}
+#inputNumberSaldo{
+    display: block;
+    width: 44%;
+    float: left;
+    margin: 0 auto;
+    height: 90%;
+    margin-right: 0px;
+    border-width: 2px;
+    border: solid black;
+    font-size: 2em;
+    font-weight: bold;
+}
+#inputButtonSaldo:hover{
+    cursor: pointer;
+}
+#inputButtonSaldo{
+    display: block;
+    width: 44%;
+    height: 98%;
+    border: solid black;
+    border-width: 2px;
+    margin-top: 9px;
+    font-size: 2em;
+    font-weight: bold;
+}
+#sectionInputSaldo{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    
+    margin-top: 5vh;
+    height: 100px;
+    padding-left:5%;
+    padding-right: 0;
+}
+#imgFechar:hover{
+    cursor: pointer;
+}
+#imgFechar{
+    width: 2%;
+    display: block;
+    margin-left: 98%;
+}
+#body1{
+    background-color: #ccc;
+    
+}
+#body1 p{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #006B3B;
+    font-size: 1em;
+    
+}
+#logo{
+    margin-top: 15%;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#botaoComecar{
+    display: block;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #006B3B;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+}
+#botaoComecar:hover{
+    background-color: #FFF200;
+    color: #006B3B;
+}
+#body3{
+    background-color: #38598F;
+    color: white;
+    overflow-x: hidden;
+}
+#imgResultado{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#cabResultado{
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+#body3 p{
+    text-align: center;
+    color: white;
+}
