@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <script language="javascript" src="js.js"></script>
+    <title>Calcula Hora Extra</title>
+</head>
+<body>
+    <div id="principal">
+            <div id="titulo">
+                <h3>calcula hora extra</h3>
+            </div>
+            <div id="div1">
+                <label for="inputQtdHora">Quantidade Horas</label><br>
+                <input id="inputQtdHora" type="number" placeholder="Quantidade de horas">
+            </div>
+            <div>
+                <label for="inputValorHora">Valor Hora</label><br>
+                <input id="inputValorHora" type="number" placeholder="Valor da hora">
+            </div>
+            <div id="inputResultado">
+                <input id="resultado" type="number" placeholder="Resultado" onload="calculaHoras()"><br>
+            </div>
+            <input type="submit" id="inputBotao" value="Calcular" onclick="calcular()">
+    </div>
+</body>
+</html>

@@ -32,6 +32,10 @@ function inicio(){
     var pElement = document.createElement('p');
     pElement.setAttribute('id','paragrafo');
     document.querySelector('div').appendChild(pElement);
+
+    var pElement = document.createElement('class');
+    pElement.setAttribute('class','btn btn-primary');
+    document.querySelector('class').appendChild(pElement);
     
 }
 

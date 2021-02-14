@@ -1,0 +1,47 @@
+*{
+    margin: 0 auto;
+}
+#principal{
+    margin-top: 2%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: cornsilk;
+}
+#div1{
+    margin-top: 10px;
+}
+form{
+    width: 300px;
+    background-color: rgb(121, 170, 170);
+}
+#titulo{
+   text-transform: uppercase;
+   background-color: rgb(41, 82, 82);
+   padding: 5px 0px ; 
+}
+input, label{
+    margin: 0.5%;
+}
+input{
+    background-color: burlywood;
+    color: darkblue;
+    padding: 5px 0px ;
+    text-align: center;
+}
+#inputResultado{
+ padding-top: 5%;
+ height: 25px;
+ margin-top: 20px;
+}
+#inputBotao{
+    cursor: pointer;
+    background-color: gold;
+    color: black;
+    margin: 5% 0;
+    padding: 7px;
+}
+#inputBotao:hover{
+    background-color: black;
+    color: gold;
+}

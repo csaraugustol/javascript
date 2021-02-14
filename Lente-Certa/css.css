@@ -1,0 +1,51 @@
+*{
+    margin: 0 auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-image: linear-gradient(rgba(22, 99, 172, 0.664), rgba(69, 145, 216, 0.664), rgba(47, 123, 194, 0.664), 
+    rgba(72, 143, 209, 0.664));
+    background-repeat: repeat;
+}
+div{
+    margin-bottom: 15px;
+}
+.divContainer{
+    width: 400px;
+    text-align: center;
+    padding: 1%;
+    margin-top: 25px;
+}
+.divContainer{
+    background-color: aqua;
+}
+#grauEsfOlhoEsq, #grauEsfOlhoDir, #grauCilOlhoEsq, #grauCilOlhoDir, label{
+    text-align: center;
+    text-transform: uppercase;
+}
+#grauEsfOlhoEsq, #grauEsfOlhoDir, #grauCilOlhoEsq, #grauCilOlhoDir{
+    width: 240px;
+    margin-bottom: 2%;
+    padding: 2%;
+    text-align: center;
+    text-transform: uppercase;
+}
+label{
+    font-size: 1.2em;
+}
+h1{
+    color: cadetblue;
+    text-transform: uppercase;
+    margin-bottom: 7%;
+}
+h4, h6{
+    text-transform: uppercase;
+    color: cornsilk;
+}
+h6{
+    padding-bottom: 5%;
+}
+.div-logo{
+    background-color: cornsilk;
+    margin-top: 2%;
+}
