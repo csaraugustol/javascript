@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Incluir/Remover</title>
+</head>
+<body>
+    
+
+    <script>
+        var lista_time = Array();
+
+        lista_time[0] = 'Cruzeiro';
+        lista_time[1] = 'Chelsea';
+        lista_time[2] = 'Barcelona';
+
+     var verificacao = lista_time.indexOf('Chelsea');
+
+        //Verifica se elemento existe
+        if(verificacao === -1){
+            console.log('Elemento não existe.');
+        }else{
+            console.log('Elemento existente: ' + verificacao);
+        }
+    </script>
+</body>
+</html>

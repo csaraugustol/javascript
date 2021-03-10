@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Incluir/Remover</title>
+</head>
+<body>
+    
+
+    <script>
+        var lista_carros = Array();
+
+        lista_carros[0] = 'Ferrari';
+        lista_carros[1] = 'Celta';
+        lista_carros[2] = 'Kicks';
+
+        //Adiciona no fim
+        lista_carros.push('Gol');
+
+        //Adiciona no início
+        lista_carros.unshift('Strada');
+
+        //Remove no fim
+        lista_carros.pop();
+
+        //Remove no início
+        lista_carros.shift();
+
+        console.log(lista_carros);
+
+    </script>
+</body>
+</html>
